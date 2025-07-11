@@ -5,6 +5,10 @@ nav h2{
     color: #4E47FF;
     font-size: 50px;
 }
+footer h2{
+    color: #4E47FF;
+    font-size: 90px;
+}
 
 .open-sans-font {
   font-family: "Inter Sans", sans-serif;
@@ -147,3 +151,29 @@ form .name-div,.email-div,.message-div{
     border: none;
      padding: 10px 20px;
  }
+
+ footer{
+    background-color: white;
+ }
+
+a{
+    text-decoration: none;
+ }
+
+ .footer-container{
+    width: 531px;
+    height: 270px;
+    margin: 0 auto;
+    padding: 80px 0;
+ }
+
+ .links a{
+    margin-left: 40px;
+ }
+.footer-container h2{
+    margin-left: 100px;
+  }
+  
+  .footer-container h2,p,.links{
+    margin-bottom: 20px;
+  }
