@@ -1,9 +1,13 @@
+body{
+    background-color: #f4f4fe;
+}
 nav h2{
     color: #4E47FF;
-    font-family: ;
+    font-size: 50px;
 }
+
 .open-sans-font {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
@@ -55,3 +59,91 @@ nav {
     margin-left: 35px;
     font-size: 45px;
 }
+
+.action-container{
+    height:328px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 150px;
+ 
+}
+.action-container img{
+    max-width: 403px;
+    max-height: 328px;
+    border-radius:48px ;
+}
+.action-card{
+    height: 203px;
+    width: 517px;
+}
+.action-card p{
+    color: #252432;
+}
+.productive-user-container{
+    background-color: #E8EBFF;
+    max-height: 306px;
+    width: 1140px;
+    margin: 0 150px;
+    
+    
+
+}
+.productive-user-stuffs{
+   margin-top: 50px;
+}
+
+.user-count-container{
+    display: flex;
+    justify-content: center;
+}
+.user-count-container .count{
+ margin-right: 100px;
+}
+.productive-user-stuffs h2{
+    text-align: center;
+    
+}
+.count h1{
+    color: #463FFF;
+    /* font-size: 50px; */
+}
+.count p{
+    color: #1e1c1cdc;
+}
+
+.get-in-touch{
+    width: 1140px;
+    height:632px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px ;
+}
+.header-div{
+    height: 232px;
+    width: 528px;
+}
+.header-div h1{
+    font-size: 60px;
+}
+form{
+    height: 500px;
+    width: 500px;
+
+}
+form textarea{
+    display: block;
+    border: none;
+}
+form .name-div,.email-div,.message-div{
+    margin-bottom: 30px;
+}
+
+.name-div,.email-div{
+    display:block
+}
+ input[type="text"], input[type="email"]{
+    border: none;
+     padding: 10px 20px;
+ }
